@@ -1,0 +1,23 @@
+{
+  "name": "demo3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/plugin-transform-react-constant-elements": "^7.12.1",
+    "@babel/plugin-transform-react-display-name": "^7.12.1",
+    "@babel/plugin-transform-react-inline-elements": "^7.12.1",
+    "@babel/plugin-transform-react-jsx": "^7.12.11",
+    "@babel/plugin-transform-react-jsx-compat": "^7.12.1",
+    "@babel/plugin-transform-react-jsx-self": "^7.12.1",
+    "@babel/plugin-transform-react-jsx-source": "^7.12.1",
+    "@babel/preset-env": "^7.12.11"
+  }
+}
